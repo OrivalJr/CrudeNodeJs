@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="assets/css/index.css">
+    <title>Login</title>
+</head>
+
+<body>
+    <section>
+        <div class="form-box">
+            <div class="form-value">
+                <form onsubmit="event.preventDefault(); fazerLogin()">
+                    <h2>ADM Login</h2>
+                    <div class="input">
+                        <ion-icon name="mail-outline"></ion-icon>
+                        <input type="text" id="usuario" autocomplete="off" required>
+                        <label for="">Usuario: admin</label>
+                    </div>
+                    <div class="input">
+                        <ion-icon name="lock-closed-outline"></ion-icon>
+                        <input type="password" id="senha" autocomplete="off" required>
+                        <label for="">Senha: admin</label>
+                    </div>
+                    <div class="lembrar">
+                        <label for=""><input type="checkbox">Lembrar login</label>
+                    </div>
+                    <input type="submit" value="Entrar" id="entrarBotao">
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+    <script src="assets/js/src/login.js"></script>
+</body>
+
+</html>

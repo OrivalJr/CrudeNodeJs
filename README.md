@@ -1,11 +1,11 @@
-<h1 align="center">Formulário de Cadastro de Paciente</h1>
+<h1 align="center">Formulário para teste de crude nodejs</h1>
 
 Este projeto é um sistema backend construído em Node.js que permite aos atendentes gerenciar informações em um banco de dados, utilizando as operações CRUD (Create, Read, Update e Delete).
 <br><br>
 
 ## Dicas de uso
-* Link para o site: [crud1-kauamoreno2005.b4a.run/](crud1-kauamoreno2005.b4a.run/)
-* O sevidor é dasabilitado quando fica inativo por 30 min, por isso o site pode demorar 1 min para entrar<br>
+* Link para o site: [https://orivaljr.github.io/CrudeNodeJs/](https://orivaljr.github.io/CrudeNodeJs//)
+* O sevidor é dasabilitado quando fica inativo por 30 min, por isso o site pode demorar para entrar<br>
 
 #### Usuario e senha de administrador:
 * <b>login:</b> admin - <b>senha:</b> admin
@@ -24,5 +24,5 @@ Este projeto é um sistema backend construído em Node.js que permite aos atende
 Este projeto está sob a licença MIT, para mais informações consulte o arquivo [LICENSE](LICENSE) .
 <br><br>
 
-> Feito por Kauã Moreno 
+
 

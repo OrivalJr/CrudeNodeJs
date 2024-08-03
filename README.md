@@ -1,6 +1,6 @@
 <h1 align="center">Formulário para teste de crude nodejs</h1>
 
-Este projeto é um sistema backend construído em Node.js que permite aos atendentes gerenciar informações em um banco de dados, utilizando as operações CRUD (Create, Read, Update e Delete).
+Este projeto é um sistema backend construído em Node.js utilizando as operações CRUD (Create, Read, Update e Delete).
 <br><br>
 
 ## Dicas de uso

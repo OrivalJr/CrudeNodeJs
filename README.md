@@ -1,4 +1,4 @@
-<h1 align="center">Formulário para teste de crude nodejs</h1>
+<h1 align="center">Formulário para testes de crude nodejs</h1>
 
 Este projeto é um sistema backend construído em Node.js utilizando as operações CRUD (Create, Read, Update e Delete).
 <br><br>
@@ -11,14 +11,6 @@ Este projeto é um sistema backend construído em Node.js utilizando as operaç�
 * <b>login:</b> admin - <b>senha:</b> admin
 * <b>login:</b> pedro - <b>senha:</b> senhaforte
 * <b>login:</b> ana - <b>senha:</b> senhasegura
-
-<br>
-
-## Fluxograma
-
-<img width="650" alt="PWBE" src="https://user-images.githubusercontent.com/119445003/229531857-6d3a7d36-4159-49fc-a828-2cce7b55b050.png">
-
-<br>
 
 ## Licença
 Este projeto está sob a licença MIT, para mais informações consulte o arquivo [LICENSE](LICENSE) .

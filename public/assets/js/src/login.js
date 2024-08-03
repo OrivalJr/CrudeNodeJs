@@ -20,7 +20,7 @@ function fazerLogin(){
                     timer: 1500
                 })
                 setTimeout(function() {
-                    window.location.href = "busca.html";
+                    window.location.href = "./public/busca.html";
                 }, 1500);
                 break;
             }

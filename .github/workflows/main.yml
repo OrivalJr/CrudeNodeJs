@@ -27,8 +27,6 @@ jobs:
 
       # Runs a single command using the runners shell
       - name: Run a one-line script
-        run: npm install
-        run: run npm package.jason
-
-    branch: main
+        run: run package.json
+    
 

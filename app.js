@@ -8,7 +8,7 @@ const server = jsonServer.create();
 //Criar um roteador com o arquivo db.json 
 //O roteador define as rotas do servidor. Ele utiliza um arquivo JSON para gerar a rota.
 // Criar um roteador com o arquivo adm.json
-const router = jsonServer.router('public/assets/db/adm.json');
+const router = jsonServer.router('./public/assets/db/adm.json');
 
 //Funções que são executadas em cada requisição feita com o servidor
 //Importa os padrões JsonServer
@@ -30,7 +30,7 @@ const express = require('express');
 const app = express();
 
 // Carregando todos os recursos da pasta public
-app.use(express.static(__dirname + '/public'));
+app.use(express.static(__dirname + './public'));
 
 // Iniciando o servidor na porta definida
 //Inicia o servidor na porta definida e exibe uma mensagem no console

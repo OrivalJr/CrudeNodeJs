@@ -13,14 +13,8 @@ jobs:
         with:
           node-version: 16
       - run: npm install
-      - run: npm run build
-      - name: Deploy to GitHub Pages
-        uses: JamesIves/github-pages-deploy-action@v4
-        with:
-          flatten: true
-          folder: build
-          github-token: ${{ secrets.GITHUB_TOKEN }}
-          branch: gh-pages
+      - run: npm run start
+      
 
     
 
